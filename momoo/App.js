@@ -1,6 +1,6 @@
 import React from "react";
-import { createStackNavigator } from "react-navigation-stack";
-import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";//npm i react-navigation-stack
+import { createAppContainer } from "react-navigation";//npm i react-navigation
 import Signup from "./src/Signup";
 import Login from "./src/Login";
 import Profile from "./src/Profile";

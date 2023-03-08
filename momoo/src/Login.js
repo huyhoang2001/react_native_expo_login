@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
 import { StyleSheet, View, ImageBackground, ScrollView } from "react-native";
-import { TextInput } from "react-native-paper";
-import { StatusBar } from "react-native";
-import { CheckBox } from "react-native-elements";
+import { TextInput } from "react-native-paper";//npm i react-native-paper
+import { StatusBar } from "react-native";//npm i react-native
+import { CheckBox } from "react-native-elements";//npm i react-native-elements
 import Txt from "../controll/Txt";
 import Btn from "../controll/Btn";
 import Btn_ico from "../controll/Btn_ico";
-import Toast from "react-native-easy-toast";
+import Toast from "react-native-easy-toast";//npm i react-native-easy-toast
 const Login = ({ navigation }) => {
   const taikhoan = [
     { id: "1", Email: "ledangviet@gmail.com", Password: "123" },
